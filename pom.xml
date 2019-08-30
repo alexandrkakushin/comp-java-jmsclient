@@ -21,6 +21,7 @@
         <activemq.version>5.15.9</activemq.version>
 
         <maven-compiler.version>3.8.1</maven-compiler.version>
+        <maven-assembly.version>3.1.1</maven-assembly.version>        
     </properties>
 
     <dependencies>
@@ -51,6 +52,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>${maven-assembly.version}</version>
                 <configuration>
                     <archive>
                         <manifest>
