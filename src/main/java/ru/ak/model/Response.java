@@ -1,4 +1,4 @@
-package ru.ak.jmsclient.model;
+package ru.ak.model;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,18 +25,23 @@ public class Response {
 	public String getMessageId() {
 		return messageId;
 	}
+
 	public void setMessageId(String messageId) {
 		this.messageId = messageId;
 	}
+
 	public boolean isError() {
 		return error;
 	}
+
 	public void setError(boolean error) {
 		this.error = error;
 	}
+
 	public String getDescription() {
 		return description;
 	}
+	
 	public void setDescription(String description) {
 		this.description = description;
 	}
@@ -47,8 +52,5 @@ public class Response {
 
 	public void setTextMessage(String textMessage) {
 		this.textMessage = textMessage;
-	}
-	
-	
-	
+	}	
 }

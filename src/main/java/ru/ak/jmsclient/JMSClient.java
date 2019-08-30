@@ -1,7 +1,7 @@
 package ru.ak.jmsclient;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
-import ru.ak.jmsclient.model.Response;
+import ru.ak.model.Response;
 
 import javax.jms.*;
 import javax.jws.WebMethod;
