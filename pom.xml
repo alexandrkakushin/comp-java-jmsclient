@@ -18,7 +18,7 @@
         <finalname>jmsclient</finalname>
 
         <jaxws.version>2.3.2</jaxws.version>
-        <activemq.version>5.15.9</activemq.version>
+        <activemq.version>5.16.2</activemq.version>
 
         <maven-compiler.version>3.8.1</maven-compiler.version>
         <maven-assembly.version>3.1.1</maven-assembly.version>        
